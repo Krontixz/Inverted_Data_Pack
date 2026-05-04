@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:add_features",
+  "biomes": "#minecraft:is_end",
+  "features": [
+    "minecraft:end_glitch_light",
+    "minecraft:sky_lava_strip"
+  ],
+  "step": "vegetal_decoration"
+}
