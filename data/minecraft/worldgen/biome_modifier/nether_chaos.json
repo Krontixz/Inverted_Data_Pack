@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:add_features",
+  "biomes": "#minecraft:is_nether",
+  "features": [
+    "minecraft:sky_lava_strip"
+  ],
+  "step": "fluid_springs"
+}
