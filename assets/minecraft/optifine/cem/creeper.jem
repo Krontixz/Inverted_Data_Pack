@@ -1,0 +1,16 @@
+{
+  "texture": "creeper.png",
+  "textureSize":,
+  "models": [
+    {
+      "part": "body",
+      "id": "body",
+      "invertAxis": "xy",
+      "translate": [0, -18, 0],
+      "rotate":,
+      "boxes": [
+        {"coordinates": [-4, 6, -2, 8, 12, 4], "textureOffset":}
+      ]
+    }
+  ]
+}
