@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:lake",
+  "config": {
+    "block": {
+      "type": "minecraft:simple_state_provider",
+      "state": { "name": "minecraft:water" }
+    },
+    "barrier": {
+      "type": "minecraft:simple_state_provider",
+      "state": { "name": "minecraft:glass" }
+    }
+  }
+}
