@@ -1,0 +1,35 @@
+{
+  "texture_size":,
+  "models": [
+    {
+      "part": "body",
+      "id": "body",
+      "invertAxis": "xy",
+      "translate": [0, -24, 0],
+      "boxes": [
+        {"coordinates": [-10, 0, -2, 20, 3, 4], "textureOffset":},
+        {"coordinates": [-1, -12, -1, 2, 12, 2], "textureOffset":}
+      ]
+    },
+    {
+      "part": "head1", "id": "head1", "parent": "body", "invertAxis": "xy", "translate":,
+      "boxes": [{"coordinates": [-4, 3, -4, 8, 8, 8], "textureOffset":}]
+    },
+    {
+      "part": "head2", "id": "head2", "parent": "body", "invertAxis": "xy", "translate": [-8, 2, 0],
+      "boxes": [{"coordinates": [-3, 0, -3, 6, 6, 6], "textureOffset":}]
+    },
+    {
+      "part": "head3", "id": "head3", "parent": "body", "invertAxis": "xy", "translate":,
+      "boxes": [{"coordinates": [-3, 0, -3, 6, 6, 6], "textureOffset":}]
+    },
+    {
+      "part": "head4", "id": "head4", "parent": "body", "invertAxis": "xy", "translate": [-12, -2, 0],
+      "boxes": [{"coordinates": [-3, 0, -3, 6, 6, 6], "textureOffset":}]
+    },
+    {
+      "part": "head5", "id": "head5", "parent": "body", "invertAxis": "xy", "translate": [12, -2, 0],
+      "boxes": [{"coordinates": [-3, 0, -3, 6, 6, 6], "textureOffset":}]
+    }
+  ]
+}
