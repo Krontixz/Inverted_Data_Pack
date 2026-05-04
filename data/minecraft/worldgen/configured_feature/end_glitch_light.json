@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:block_column",
+  "config": {
+    "direction": "up",
+    "allowed_placement": {
+      "type": "minecraft:matching_blocks",
+      "blocks": [ "minecraft:air" ]
+    },
+    "layers": [
+      {
+        "height": { "type": "minecraft:uniform", "value": { "min_inclusive": 2, "max_inclusive": 64 } },
+        "provider": { "type": "minecraft:simple_state_provider", "state": { "name": "minecraft:end_rod", "properties": { "facing": "up" } } }
+      }
+    ],
+    "prioritize_tip": true
+  }
+}
