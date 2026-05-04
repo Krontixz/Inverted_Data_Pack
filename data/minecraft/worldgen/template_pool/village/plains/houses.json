@@ -1,0 +1,23 @@
+{
+  "name": "minecraft:village/plains/houses",
+  "fallback": "minecraft:village/plains/houses",
+  "elements": [
+    {
+      "weight": 100,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecraft:village/plains/houses/plains_small_house_1",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 50,
+      "element": {
+        "element_type": "minecraft:feature_pool_element",
+        "feature": "minecraft:sky_lava_strip",
+        "projection": "terrain_matching"
+      }
+    }
+  ]
+}
