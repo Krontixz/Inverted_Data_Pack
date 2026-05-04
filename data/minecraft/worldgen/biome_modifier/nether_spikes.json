@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:add_features",
+  "biomes": "#minecraft:is_nether",
+  "features": [
+    "minecraft:nether_debris_spike"
+  ],
+  "step": "raw_generation"
+}
