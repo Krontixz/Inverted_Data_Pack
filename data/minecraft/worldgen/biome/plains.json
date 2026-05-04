@@ -1,0 +1,37 @@
+{
+  "has_precipitation": true,
+  "temperature": 2.0,
+  "downfall": 1.0,
+  "effects": {
+    "sky_color": 16711680,
+    "fog_color": 3342336,
+    "water_color": 16711680,
+    "water_fog_color": 5013504,
+    "grass_color": 0,
+    "foliage_color": 0,
+    "mood_sound": {
+      "sound": "minecraft:entity.warden.emerge",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2.0
+    }
+  },
+  "spawners": {},
+  "spawn_costs": {},
+  "carvers": {},
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "minecraft:sky_lava_strip",
+      "minecraft:ore_pillar_diamond"
+    ]
+  ]
+}
