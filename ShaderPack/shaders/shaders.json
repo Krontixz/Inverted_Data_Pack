@@ -1,0 +1,15 @@
+{
+  "name": "INVERTED_FILTER",
+  "layers": [
+    {
+      "name": "final",
+      "program": "final",
+      "inputs": [
+        {
+          "name": "colortex0",
+          "source": "minecraft:main"
+        }
+      ]
+    }
+  ]
+}
