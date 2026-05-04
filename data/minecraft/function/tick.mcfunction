@@ -5,3 +5,7 @@ execute as @e[type=warden] run tp @s ~ ~ ~ facing entity @p
 execute as @e[type=ghast] run attribute @s minecraft:generic.scale base set 10.0
 execute as @e[type=zombified_piglin] run item replace entity @s weapon.mainhand with minecraft:netherite_axe{Enchantments:[{id:"minecraft:sharpness",lvl:255}]}
 execute as @e[type=blaze] run summon minecraft:tnt ~ ~ ~ {Fuse:80}
+execute as @e[type=ender_dragon] run attribute @s minecraft:generic.scale base set 0.1
+execute as @e[type=enderman] run attribute @s minecraft:generic.scale base set 10.0
+execute as @e[type=enderman] run item replace entity @s weapon.mainhand with minecraft:pink_shulker_box
+execute as @e[type=shulker] run summon minecraft:tnt ~ ~ ~ {Fuse:20}
