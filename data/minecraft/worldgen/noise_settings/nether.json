@@ -1,30 +1,29 @@
 {
-  "sea_level": 0,
+  "sea_level": 32,
   "disable_mob_generation": false,
   "aquifers_enabled": false,
   "ore_veins_enabled": true,
-  "legacy_random_source": false,
   "default_block": {
     "name": "minecraft:crying_obsidian"
   },
   "default_fluid": {
-    "name": "minecraft:lava"
+    "name": "minecraft:magenta_glazed_terracotta"
   },
   "noise": {
     "min_y": 0,
-    "height": 256,
-    "size_horizontal": 4,
+    "height": 128,
+    "size_horizontal": 1,
     "size_vertical": 4,
     "sampling": {
-      "xz_scale": 10.0,
-      "y_scale": 0.01,
-      "xz_factor": 1.0,
-      "y_factor": 1.0
+      "xz_scale": 1.0,
+      "y_scale": 100.0,
+      "xz_factor": 80.0,
+      "y_factor": 160.0
     },
     "terrain_shaper": {
       "offset": 0.0,
       "factor": 0.0,
-      "jaggedness": 100.0
+      "jaggedness": 0.0
     }
   },
   "noise_router": {
@@ -43,16 +42,21 @@
     "ridges": 0,
     "initial_density_without_jaggedness": 1,
     "final_density": {
-      "type": "minecraft:noise",
-      "noise": "minecraft:nether",
-      "xz_scale": 100.0,
-      "y_scale": 1.0
+      "type": "minecraft:mul",
+      "argument1": 0.5,
+      "argument2": {
+        "type": "minecraft:y_clamped_gradient",
+        "from_y": 0,
+        "to_y": 128,
+        "from_value": 1,
+        "to_value": -1
+      }
     }
   },
   "surface_rule": {
     "type": "minecraft:block",
     "result_state": {
-      "name": "minecraft:gilded_blackstone"
+      "name": "minecraft:bedrock"
     }
   }
 }
