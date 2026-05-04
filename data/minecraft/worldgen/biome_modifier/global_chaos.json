@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:add_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": [
+    "minecraft:sky_lava_strip",
+    "minecraft:ore_pillar_diamond"
+  ],
+  "step": "underground_ores"
+}
